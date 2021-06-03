@@ -50,7 +50,7 @@ b9.place(x=190,y=100)
 bmenos = tk.Button(text="-", width=10, height=3, bg="gray", fg="white", command=lambda:click("-"))
 bmenos.place(x=190,y=40)
 
-bx = tk.Button(text="X", width=10, height=3, bg="gray", fg="white", command=lambda:click("x"))
+bx = tk.Button(text="x", width=10, height=3, bg="gray", fg="white", command=lambda:click("*"))
 bx.place(x=275,y=100)
 
 bdividir = tk.Button(text="/", width=10, height=3, bg="gray", fg="white", command=lambda:click("/"))
